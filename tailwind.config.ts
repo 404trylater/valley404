@@ -16,20 +16,18 @@ const config: Config = {
         lg: "1024px",
         xl: "1280px",
       },
+      colors: {
+        bgDark: '#17181c',
+        bgLight: '#ede4da',
+        dark: '#17181c',
+        light: '#ede4da',
+        blue: '#668da9'
+      },
       boxShadow: {
-        buttonDark: "2px 2px 7px 1px rgba(28,28,28, 0.1)",
-        buttonPink: "2px 2px 7px 1px rgba(241,156,187, 1)",
-        buttonPinkBrick: "0px 0px 7px 4px rgba(241,156,187, 1)",
-        buttonWhite: "2px 2px 7px 1px rgba(145,149,153, 1)",
-        buttonWhiteBrick: "0px 0px 7px 4px rgba(145,149,153, 1)",
-        buttonGray: "2px 2px 7px 1px rgba(58,58,58, 1)",
-        buttonGrayBrick: "0px 0px 7px 4px rgba(58,58,58, 1)",
-        buttonRed: "2px 2px 7px 1px rgba(243,18,96, 1)",
-        buttonRedBrick: "0px 0px 7px 4px rgba(243,18,96, 1)",
-        buttonBlue: "2px 2px 7px 1px rgba(65,182,222, 1)",
-        buttonBlueBrick: "0px 0px 7px 4px rgba(65,182,222, 1)",
-        buttonGreen: "2px 2px 7px 1px rgba(34,197,94, 1)",
-        buttonGreenBrick: "0px 0px 7px 4px rgba(34,197,94, 1)",
+        buttonLight: "2px 2px 1px 1px rgba(237,228,218, 1)",
+        buttonDark: "2px 2px 1px 1px rgba(23,24,28, 1)",
+        buttonBlue: "2px 2px 7px 1px rgba(102,141,159, 1)",
+        buttonBlueBrick: "0px 0px 7px 4px rgba(102,141,159, 1)",
       },
       keyframes: {
         border: {
